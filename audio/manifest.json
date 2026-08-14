@@ -1,0 +1,1432 @@
+{
+    "music":  {
+                  "menu":  "/audio/music/menu.mp3",
+                  "battle":  "/audio/music/battle.mp3",
+                  "matchmaking":  "/audio/music/matchmaking.mp3",
+                  "victory":  "/audio/music/victory.mp3",
+                  "defeat":  "/audio/music/defeat.mp3"
+              },
+    "sfx":  {
+                "cardPick":  "/audio/sfx/cardPick.mp3",
+                "cardPlace":  "/audio/sfx/cardPlace.mp3",
+                "capture":  "/audio/sfx/capture.mp3",
+                "freeze":  "/audio/sfx/freeze.mp3",
+                "boulder":  "/audio/sfx/boulder.mp3",
+                "flip":  "/audio/sfx/flip.mp3",
+                "recruit":  "/audio/sfx/recruit.mp3",
+                "swap":  "/audio/sfx/swap.mp3",
+                "shuffle":  "/audio/sfx/shuffle.mp3",
+                "draw":  "/audio/sfx/draw.mp3",
+                "hover":  "/audio/sfx/hover.mp3",
+                "countdown":  "/audio/sfx/countdown.mp3",
+                "matchStart":  "/audio/sfx/matchStart.mp3",
+                "win":  "/audio/sfx/win.mp3",
+                "lose":  "/audio/sfx/lose.mp3",
+                "click":  "/audio/sfx/click.mp3",
+                "turnChime":  "/audio/sfx/turnChime.mp3",
+                "deny":  "/audio/sfx/deny.mp3",
+                "chessHop":  "/audio/sfx/chessHop.mp3",
+                "powerBoost":  "/audio/sfx/powerBoost.mp3",
+                "matchFound":  "/audio/sfx/matchFound.mp3",
+                "eloUp":  "/audio/sfx/eloUp.mp3",
+                "eloDown":  "/audio/sfx/eloDown.mp3",
+                "combo":  "/audio/sfx/combo.mp3",
+                "whoosh":  "/audio/sfx/whoosh.mp3"
+            },
+    "voice":  {
+                  "1":  {
+                            "place":  [
+                                          "/audio/voice/1/place-1.mp3",
+                                          "/audio/voice/1/place-2.mp3",
+                                          "/audio/voice/1/place-3.mp3"
+                                      ],
+                            "capture":  {
+                                            "1":  [
+                                                      "/audio/voice/1/capture-1.mp3"
+                                                  ],
+                                            "2":  [
+                                                      "/audio/voice/1/capture-2.mp3"
+                                                  ],
+                                            "3":  [
+                                                      "/audio/voice/1/capture-3.mp3"
+                                                  ],
+                                            "4":  [
+                                                      "/audio/voice/1/capture-4.mp3"
+                                                  ]
+                                        },
+                            "hurt":  [
+                                         "/audio/voice/1/hurt-1.mp3",
+                                         "/audio/voice/1/hurt-2.mp3"
+                                     ],
+                            "win":  [
+                                        "/audio/voice/1/win-1.mp3"
+                                    ]
+                        },
+                  "2":  {
+                            "place":  [
+                                          "/audio/voice/2/place-1.mp3",
+                                          "/audio/voice/2/place-2.mp3",
+                                          "/audio/voice/2/place-3.mp3"
+                                      ],
+                            "capture":  {
+                                            "1":  [
+                                                      "/audio/voice/2/capture-1.mp3"
+                                                  ],
+                                            "2":  [
+                                                      "/audio/voice/2/capture-2.mp3"
+                                                  ],
+                                            "3":  [
+                                                      "/audio/voice/2/capture-3.mp3"
+                                                  ],
+                                            "4":  [
+                                                      "/audio/voice/2/capture-4.mp3"
+                                                  ]
+                                        },
+                            "hurt":  [
+                                         "/audio/voice/2/hurt-1.mp3",
+                                         "/audio/voice/2/hurt-2.mp3"
+                                     ],
+                            "win":  [
+                                        "/audio/voice/2/win-1.mp3"
+                                    ]
+                        },
+                  "3":  {
+                            "place":  [
+                                          "/audio/voice/3/place-1.mp3",
+                                          "/audio/voice/3/place-2.mp3",
+                                          "/audio/voice/3/place-3.mp3"
+                                      ],
+                            "capture":  {
+                                            "1":  [
+                                                      "/audio/voice/3/capture-1.mp3"
+                                                  ],
+                                            "2":  [
+                                                      "/audio/voice/3/capture-2.mp3"
+                                                  ],
+                                            "3":  [
+                                                      "/audio/voice/3/capture-3.mp3"
+                                                  ],
+                                            "4":  [
+                                                      "/audio/voice/3/capture-4.mp3"
+                                                  ]
+                                        },
+                            "hurt":  [
+                                         "/audio/voice/3/hurt-1.mp3",
+                                         "/audio/voice/3/hurt-2.mp3"
+                                     ],
+                            "win":  [
+                                        "/audio/voice/3/win-1.mp3"
+                                    ]
+                        },
+                  "4":  {
+                            "place":  [
+                                          "/audio/voice/4/place-1.mp3",
+                                          "/audio/voice/4/place-2.mp3",
+                                          "/audio/voice/4/place-3.mp3"
+                                      ],
+                            "capture":  {
+                                            "1":  [
+                                                      "/audio/voice/4/capture-1.mp3"
+                                                  ],
+                                            "2":  [
+                                                      "/audio/voice/4/capture-2.mp3"
+                                                  ],
+                                            "3":  [
+                                                      "/audio/voice/4/capture-3.mp3"
+                                                  ],
+                                            "4":  [
+                                                      "/audio/voice/4/capture-4.mp3"
+                                                  ]
+                                        },
+                            "hurt":  [
+                                         "/audio/voice/4/hurt-1.mp3",
+                                         "/audio/voice/4/hurt-2.mp3"
+                                     ],
+                            "win":  [
+                                        "/audio/voice/4/win-1.mp3"
+                                    ]
+                        },
+                  "5":  {
+                            "place":  [
+                                          "/audio/voice/5/place-1.mp3",
+                                          "/audio/voice/5/place-2.mp3",
+                                          "/audio/voice/5/place-3.mp3"
+                                      ],
+                            "capture":  {
+                                            "1":  [
+                                                      "/audio/voice/5/capture-1.mp3"
+                                                  ],
+                                            "2":  [
+                                                      "/audio/voice/5/capture-2.mp3"
+                                                  ],
+                                            "3":  [
+                                                      "/audio/voice/5/capture-3.mp3"
+                                                  ],
+                                            "4":  [
+                                                      "/audio/voice/5/capture-4.mp3"
+                                                  ]
+                                        },
+                            "hurt":  [
+                                         "/audio/voice/5/hurt-1.mp3",
+                                         "/audio/voice/5/hurt-2.mp3"
+                                     ],
+                            "win":  [
+                                        "/audio/voice/5/win-1.mp3"
+                                    ]
+                        },
+                  "6":  {
+                            "place":  [
+                                          "/audio/voice/6/place-1.mp3",
+                                          "/audio/voice/6/place-2.mp3",
+                                          "/audio/voice/6/place-3.mp3"
+                                      ],
+                            "capture":  {
+                                            "1":  [
+                                                      "/audio/voice/6/capture-1.mp3"
+                                                  ],
+                                            "2":  [
+                                                      "/audio/voice/6/capture-2.mp3"
+                                                  ],
+                                            "3":  [
+                                                      "/audio/voice/6/capture-3.mp3"
+                                                  ],
+                                            "4":  [
+                                                      "/audio/voice/6/capture-4.mp3"
+                                                  ]
+                                        },
+                            "hurt":  [
+                                         "/audio/voice/6/hurt-1.mp3",
+                                         "/audio/voice/6/hurt-2.mp3"
+                                     ],
+                            "win":  [
+                                        "/audio/voice/6/win-1.mp3"
+                                    ]
+                        },
+                  "7":  {
+                            "place":  [
+                                          "/audio/voice/7/place-1.mp3",
+                                          "/audio/voice/7/place-2.mp3",
+                                          "/audio/voice/7/place-3.mp3"
+                                      ],
+                            "capture":  {
+                                            "1":  [
+                                                      "/audio/voice/7/capture-1.mp3"
+                                                  ],
+                                            "2":  [
+                                                      "/audio/voice/7/capture-2.mp3"
+                                                  ],
+                                            "3":  [
+                                                      "/audio/voice/7/capture-3.mp3"
+                                                  ],
+                                            "4":  [
+                                                      "/audio/voice/7/capture-4.mp3"
+                                                  ]
+                                        },
+                            "hurt":  [
+                                         "/audio/voice/7/hurt-1.mp3",
+                                         "/audio/voice/7/hurt-2.mp3"
+                                     ],
+                            "win":  [
+                                        "/audio/voice/7/win-1.mp3"
+                                    ]
+                        },
+                  "8":  {
+                            "place":  [
+                                          "/audio/voice/8/place-1.mp3",
+                                          "/audio/voice/8/place-2.mp3",
+                                          "/audio/voice/8/place-3.mp3"
+                                      ],
+                            "capture":  {
+                                            "1":  [
+                                                      "/audio/voice/8/capture-1.mp3"
+                                                  ],
+                                            "2":  [
+                                                      "/audio/voice/8/capture-2.mp3"
+                                                  ],
+                                            "3":  [
+                                                      "/audio/voice/8/capture-3.mp3"
+                                                  ],
+                                            "4":  [
+                                                      "/audio/voice/8/capture-4.mp3"
+                                                  ]
+                                        },
+                            "hurt":  [
+                                         "/audio/voice/8/hurt-1.mp3",
+                                         "/audio/voice/8/hurt-2.mp3"
+                                     ],
+                            "win":  [
+                                        "/audio/voice/8/win-1.mp3"
+                                    ]
+                        },
+                  "9":  {
+                            "place":  [
+                                          "/audio/voice/9/place-1.mp3",
+                                          "/audio/voice/9/place-2.mp3",
+                                          "/audio/voice/9/place-3.mp3"
+                                      ],
+                            "capture":  {
+                                            "1":  [
+                                                      "/audio/voice/9/capture-1.mp3"
+                                                  ],
+                                            "2":  [
+                                                      "/audio/voice/9/capture-2.mp3"
+                                                  ],
+                                            "3":  [
+                                                      "/audio/voice/9/capture-3.mp3"
+                                                  ],
+                                            "4":  [
+                                                      "/audio/voice/9/capture-4.mp3"
+                                                  ]
+                                        },
+                            "hurt":  [
+                                         "/audio/voice/9/hurt-1.mp3",
+                                         "/audio/voice/9/hurt-2.mp3"
+                                     ],
+                            "win":  [
+                                        "/audio/voice/9/win-1.mp3"
+                                    ]
+                        },
+                  "10":  {
+                             "place":  [
+                                           "/audio/voice/10/place-1.mp3",
+                                           "/audio/voice/10/place-2.mp3",
+                                           "/audio/voice/10/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/10/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/10/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/10/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/10/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/10/hurt-1.mp3",
+                                          "/audio/voice/10/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/10/win-1.mp3"
+                                     ]
+                         },
+                  "11":  {
+                             "place":  [
+                                           "/audio/voice/11/place-1.mp3",
+                                           "/audio/voice/11/place-2.mp3",
+                                           "/audio/voice/11/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/11/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/11/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/11/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/11/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/11/hurt-1.mp3",
+                                          "/audio/voice/11/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/11/win-1.mp3"
+                                     ]
+                         },
+                  "12":  {
+                             "place":  [
+                                           "/audio/voice/12/place-1.mp3",
+                                           "/audio/voice/12/place-2.mp3",
+                                           "/audio/voice/12/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/12/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/12/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/12/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/12/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/12/hurt-1.mp3",
+                                          "/audio/voice/12/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/12/win-1.mp3"
+                                     ]
+                         },
+                  "13":  {
+                             "place":  [
+                                           "/audio/voice/13/place-1.mp3",
+                                           "/audio/voice/13/place-2.mp3",
+                                           "/audio/voice/13/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/13/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/13/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/13/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/13/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/13/hurt-1.mp3",
+                                          "/audio/voice/13/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/13/win-1.mp3"
+                                     ]
+                         },
+                  "14":  {
+                             "place":  [
+                                           "/audio/voice/14/place-1.mp3",
+                                           "/audio/voice/14/place-2.mp3",
+                                           "/audio/voice/14/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/14/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/14/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/14/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/14/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/14/hurt-1.mp3",
+                                          "/audio/voice/14/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/14/win-1.mp3"
+                                     ]
+                         },
+                  "15":  {
+                             "place":  [
+                                           "/audio/voice/15/place-1.mp3",
+                                           "/audio/voice/15/place-2.mp3",
+                                           "/audio/voice/15/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/15/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/15/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/15/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/15/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/15/hurt-1.mp3",
+                                          "/audio/voice/15/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/15/win-1.mp3"
+                                     ]
+                         },
+                  "16":  {
+                             "place":  [
+                                           "/audio/voice/16/place-1.mp3",
+                                           "/audio/voice/16/place-2.mp3",
+                                           "/audio/voice/16/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/16/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/16/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/16/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/16/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/16/hurt-1.mp3",
+                                          "/audio/voice/16/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/16/win-1.mp3"
+                                     ]
+                         },
+                  "17":  {
+                             "place":  [
+                                           "/audio/voice/17/place-1.mp3",
+                                           "/audio/voice/17/place-2.mp3",
+                                           "/audio/voice/17/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/17/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/17/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/17/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/17/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/17/hurt-1.mp3",
+                                          "/audio/voice/17/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/17/win-1.mp3"
+                                     ]
+                         },
+                  "18":  {
+                             "place":  [
+                                           "/audio/voice/18/place-1.mp3",
+                                           "/audio/voice/18/place-2.mp3",
+                                           "/audio/voice/18/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/18/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/18/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/18/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/18/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/18/hurt-1.mp3",
+                                          "/audio/voice/18/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/18/win-1.mp3"
+                                     ]
+                         },
+                  "19":  {
+                             "place":  [
+                                           "/audio/voice/19/place-1.mp3",
+                                           "/audio/voice/19/place-2.mp3",
+                                           "/audio/voice/19/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/19/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/19/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/19/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/19/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/19/hurt-1.mp3",
+                                          "/audio/voice/19/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/19/win-1.mp3"
+                                     ]
+                         },
+                  "20":  {
+                             "place":  [
+                                           "/audio/voice/20/place-1.mp3",
+                                           "/audio/voice/20/place-2.mp3",
+                                           "/audio/voice/20/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/20/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/20/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/20/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/20/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/20/hurt-1.mp3",
+                                          "/audio/voice/20/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/20/win-1.mp3"
+                                     ]
+                         },
+                  "21":  {
+                             "place":  [
+                                           "/audio/voice/21/place-1.mp3",
+                                           "/audio/voice/21/place-2.mp3",
+                                           "/audio/voice/21/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/21/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/21/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/21/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/21/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/21/hurt-1.mp3",
+                                          "/audio/voice/21/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/21/win-1.mp3"
+                                     ]
+                         },
+                  "22":  {
+                             "place":  [
+                                           "/audio/voice/22/place-1.mp3",
+                                           "/audio/voice/22/place-2.mp3",
+                                           "/audio/voice/22/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/22/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/22/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/22/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/22/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/22/hurt-1.mp3",
+                                          "/audio/voice/22/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/22/win-1.mp3"
+                                     ]
+                         },
+                  "23":  {
+                             "place":  [
+                                           "/audio/voice/23/place-1.mp3",
+                                           "/audio/voice/23/place-2.mp3",
+                                           "/audio/voice/23/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/23/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/23/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/23/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/23/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/23/hurt-1.mp3",
+                                          "/audio/voice/23/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/23/win-1.mp3"
+                                     ]
+                         },
+                  "24":  {
+                             "place":  [
+                                           "/audio/voice/24/place-1.mp3",
+                                           "/audio/voice/24/place-2.mp3",
+                                           "/audio/voice/24/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/24/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/24/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/24/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/24/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/24/hurt-1.mp3",
+                                          "/audio/voice/24/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/24/win-1.mp3"
+                                     ]
+                         },
+                  "25":  {
+                             "place":  [
+                                           "/audio/voice/25/place-1.mp3",
+                                           "/audio/voice/25/place-2.mp3",
+                                           "/audio/voice/25/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/25/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/25/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/25/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/25/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/25/hurt-1.mp3",
+                                          "/audio/voice/25/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/25/win-1.mp3"
+                                     ]
+                         },
+                  "26":  {
+                             "place":  [
+                                           "/audio/voice/26/place-1.mp3",
+                                           "/audio/voice/26/place-2.mp3",
+                                           "/audio/voice/26/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/26/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/26/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/26/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/26/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/26/hurt-1.mp3",
+                                          "/audio/voice/26/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/26/win-1.mp3"
+                                     ]
+                         },
+                  "27":  {
+                             "place":  [
+                                           "/audio/voice/27/place-1.mp3",
+                                           "/audio/voice/27/place-2.mp3",
+                                           "/audio/voice/27/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/27/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/27/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/27/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/27/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/27/hurt-1.mp3",
+                                          "/audio/voice/27/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/27/win-1.mp3"
+                                     ]
+                         },
+                  "28":  {
+                             "place":  [
+                                           "/audio/voice/28/place-1.mp3",
+                                           "/audio/voice/28/place-2.mp3",
+                                           "/audio/voice/28/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/28/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/28/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/28/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/28/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/28/hurt-1.mp3",
+                                          "/audio/voice/28/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/28/win-1.mp3"
+                                     ]
+                         },
+                  "29":  {
+                             "place":  [
+                                           "/audio/voice/29/place-1.mp3",
+                                           "/audio/voice/29/place-2.mp3",
+                                           "/audio/voice/29/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/29/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/29/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/29/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/29/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/29/hurt-1.mp3",
+                                          "/audio/voice/29/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/29/win-1.mp3"
+                                     ]
+                         },
+                  "30":  {
+                             "place":  [
+                                           "/audio/voice/30/place-1.mp3",
+                                           "/audio/voice/30/place-2.mp3",
+                                           "/audio/voice/30/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/30/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/30/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/30/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/30/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/30/hurt-1.mp3",
+                                          "/audio/voice/30/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/30/win-1.mp3"
+                                     ]
+                         },
+                  "31":  {
+                             "place":  [
+                                           "/audio/voice/31/place-1.mp3",
+                                           "/audio/voice/31/place-2.mp3",
+                                           "/audio/voice/31/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/31/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/31/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/31/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/31/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/31/hurt-1.mp3",
+                                          "/audio/voice/31/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/31/win-1.mp3"
+                                     ]
+                         },
+                  "32":  {
+                             "place":  [
+                                           "/audio/voice/32/place-1.mp3",
+                                           "/audio/voice/32/place-2.mp3",
+                                           "/audio/voice/32/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/32/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/32/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/32/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/32/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/32/hurt-1.mp3",
+                                          "/audio/voice/32/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/32/win-1.mp3"
+                                     ]
+                         },
+                  "33":  {
+                             "place":  [
+                                           "/audio/voice/33/place-1.mp3",
+                                           "/audio/voice/33/place-2.mp3",
+                                           "/audio/voice/33/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/33/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/33/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/33/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/33/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/33/hurt-1.mp3",
+                                          "/audio/voice/33/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/33/win-1.mp3"
+                                     ]
+                         },
+                  "34":  {
+                             "place":  [
+                                           "/audio/voice/34/place-1.mp3",
+                                           "/audio/voice/34/place-2.mp3",
+                                           "/audio/voice/34/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/34/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/34/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/34/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/34/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/34/hurt-1.mp3",
+                                          "/audio/voice/34/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/34/win-1.mp3"
+                                     ]
+                         },
+                  "35":  {
+                             "place":  [
+                                           "/audio/voice/35/place-1.mp3",
+                                           "/audio/voice/35/place-2.mp3",
+                                           "/audio/voice/35/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/35/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/35/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/35/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/35/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/35/hurt-1.mp3",
+                                          "/audio/voice/35/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/35/win-1.mp3"
+                                     ]
+                         },
+                  "36":  {
+                             "place":  [
+                                           "/audio/voice/36/place-1.mp3",
+                                           "/audio/voice/36/place-2.mp3",
+                                           "/audio/voice/36/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/36/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/36/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/36/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/36/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/36/hurt-1.mp3",
+                                          "/audio/voice/36/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/36/win-1.mp3"
+                                     ]
+                         },
+                  "37":  {
+                             "place":  [
+                                           "/audio/voice/37/place-1.mp3",
+                                           "/audio/voice/37/place-2.mp3",
+                                           "/audio/voice/37/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/37/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/37/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/37/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/37/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/37/hurt-1.mp3",
+                                          "/audio/voice/37/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/37/win-1.mp3"
+                                     ]
+                         },
+                  "38":  {
+                             "place":  [
+                                           "/audio/voice/38/place-1.mp3",
+                                           "/audio/voice/38/place-2.mp3",
+                                           "/audio/voice/38/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/38/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/38/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/38/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/38/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/38/hurt-1.mp3",
+                                          "/audio/voice/38/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/38/win-1.mp3"
+                                     ]
+                         },
+                  "39":  {
+                             "place":  [
+                                           "/audio/voice/39/place-1.mp3",
+                                           "/audio/voice/39/place-2.mp3",
+                                           "/audio/voice/39/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/39/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/39/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/39/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/39/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/39/hurt-1.mp3",
+                                          "/audio/voice/39/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/39/win-1.mp3"
+                                     ]
+                         },
+                  "40":  {
+                             "place":  [
+                                           "/audio/voice/40/place-1.mp3",
+                                           "/audio/voice/40/place-2.mp3",
+                                           "/audio/voice/40/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/40/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/40/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/40/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/40/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/40/hurt-1.mp3",
+                                          "/audio/voice/40/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/40/win-1.mp3"
+                                     ]
+                         },
+                  "41":  {
+                             "place":  [
+                                           "/audio/voice/41/place-1.mp3",
+                                           "/audio/voice/41/place-2.mp3",
+                                           "/audio/voice/41/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/41/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/41/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/41/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/41/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/41/hurt-1.mp3",
+                                          "/audio/voice/41/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/41/win-1.mp3"
+                                     ]
+                         },
+                  "42":  {
+                             "place":  [
+                                           "/audio/voice/42/place-1.mp3",
+                                           "/audio/voice/42/place-2.mp3",
+                                           "/audio/voice/42/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/42/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/42/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/42/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/42/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/42/hurt-1.mp3",
+                                          "/audio/voice/42/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/42/win-1.mp3"
+                                     ]
+                         },
+                  "43":  {
+                             "place":  [
+                                           "/audio/voice/43/place-1.mp3",
+                                           "/audio/voice/43/place-2.mp3",
+                                           "/audio/voice/43/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/43/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/43/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/43/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/43/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/43/hurt-1.mp3",
+                                          "/audio/voice/43/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/43/win-1.mp3"
+                                     ]
+                         },
+                  "44":  {
+                             "place":  [
+                                           "/audio/voice/44/place-1.mp3",
+                                           "/audio/voice/44/place-2.mp3",
+                                           "/audio/voice/44/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/44/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/44/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/44/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/44/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/44/hurt-1.mp3",
+                                          "/audio/voice/44/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/44/win-1.mp3"
+                                     ]
+                         },
+                  "45":  {
+                             "place":  [
+                                           "/audio/voice/45/place-1.mp3",
+                                           "/audio/voice/45/place-2.mp3",
+                                           "/audio/voice/45/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/45/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/45/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/45/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/45/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/45/hurt-1.mp3",
+                                          "/audio/voice/45/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/45/win-1.mp3"
+                                     ]
+                         },
+                  "46":  {
+                             "place":  [
+                                           "/audio/voice/46/place-1.mp3",
+                                           "/audio/voice/46/place-2.mp3",
+                                           "/audio/voice/46/place-3.mp3"
+                                       ],
+                             "capture":  {
+                                             "1":  [
+                                                       "/audio/voice/46/capture-1.mp3"
+                                                   ],
+                                             "2":  [
+                                                       "/audio/voice/46/capture-2.mp3"
+                                                   ],
+                                             "3":  [
+                                                       "/audio/voice/46/capture-3.mp3"
+                                                   ],
+                                             "4":  [
+                                                       "/audio/voice/46/capture-4.mp3"
+                                                   ]
+                                         },
+                             "hurt":  [
+                                          "/audio/voice/46/hurt-1.mp3",
+                                          "/audio/voice/46/hurt-2.mp3"
+                                      ],
+                             "win":  [
+                                         "/audio/voice/46/win-1.mp3"
+                                     ]
+                         }
+              },
+    "announcer":  {
+                      "smash1":  [
+                                     "/audio/announcer/smash1-1.mp3",
+                                     "/audio/announcer/smash1-2.mp3",
+                                     "/audio/announcer/smash1-3.mp3"
+                                 ],
+                      "smash2":  [
+                                     "/audio/announcer/smash2-1.mp3",
+                                     "/audio/announcer/smash2-2.mp3",
+                                     "/audio/announcer/smash2-3.mp3"
+                                 ],
+                      "smash3":  [
+                                     "/audio/announcer/smash3-1.mp3",
+                                     "/audio/announcer/smash3-2.mp3",
+                                     "/audio/announcer/smash3-3.mp3"
+                                 ],
+                      "smash4":  [
+                                     "/audio/announcer/smash4-1.mp3",
+                                     "/audio/announcer/smash4-2.mp3",
+                                     "/audio/announcer/smash4-3.mp3"
+                                 ],
+                      "matchStart":  [
+                                         "/audio/announcer/matchStart-1.mp3",
+                                         "/audio/announcer/matchStart-2.mp3",
+                                         "/audio/announcer/matchStart-3.mp3"
+                                     ],
+                      "victory":  [
+                                      "/audio/announcer/victory-1.mp3",
+                                      "/audio/announcer/victory-2.mp3",
+                                      "/audio/announcer/victory-3.mp3"
+                                  ],
+                      "defeat":  [
+                                     "/audio/announcer/defeat-1.mp3",
+                                     "/audio/announcer/defeat-2.mp3",
+                                     "/audio/announcer/defeat-3.mp3"
+                                 ],
+                      "matchFound":  [
+                                         "/audio/announcer/matchFound-1.mp3",
+                                         "/audio/announcer/matchFound-2.mp3"
+                                     ],
+                      "firstBlood":  [
+                                         "/audio/announcer/firstBlood-1.mp3",
+                                         "/audio/announcer/firstBlood-2.mp3"
+                                     ],
+                      "comeback":  [
+                                       "/audio/announcer/comeback-1.mp3",
+                                       "/audio/announcer/comeback-2.mp3"
+                                   ],
+                      "finalTile":  [
+                                        "/audio/announcer/finalTile-1.mp3",
+                                        "/audio/announcer/finalTile-2.mp3"
+                                    ]
+                  },
+    "tutorial":  {
+                     "welcome":  [
+                                     "/audio/tutorial/welcome-1.mp3"
+                                 ],
+                     "anatomy":  [
+                                     "/audio/tutorial/anatomy-1.mp3"
+                                 ],
+                     "captureRule":  [
+                                         "/audio/tutorial/captureRule-1.mp3"
+                                     ],
+                     "captured":  [
+                                      "/audio/tutorial/captured-1.mp3"
+                                  ],
+                     "endgame":  [
+                                     "/audio/tutorial/endgame-1.mp3"
+                                 ],
+                     "boulder":  [
+                                     "/audio/tutorial/boulder-1.mp3"
+                                 ],
+                     "flip":  [
+                                  "/audio/tutorial/flip-1.mp3"
+                              ],
+                     "freeze":  [
+                                    "/audio/tutorial/freeze-1.mp3"
+                                ],
+                     "recruit":  [
+                                     "/audio/tutorial/recruit-1.mp3"
+                                 ],
+                     "swap":  [
+                                  "/audio/tutorial/swap-1.mp3"
+                              ],
+                     "power":  [
+                                   "/audio/tutorial/power-1.mp3"
+                               ],
+                     "hop":  [
+                                 "/audio/tutorial/hop-1.mp3"
+                             ],
+                     "hopReattack":  [
+                                         "/audio/tutorial/hopReattack-1.mp3"
+                                     ],
+                     "overrun":  [
+                                     "/audio/tutorial/overrun-1.mp3"
+                                 ],
+                     "overrunResult":  [
+                                           "/audio/tutorial/overrunResult-1.mp3"
+                                       ],
+                     "win":  [
+                                 "/audio/tutorial/win-1.mp3"
+                             ],
+                     "lose":  [
+                                  "/audio/tutorial/lose-1.mp3"
+                              ]
+                 }
+}
