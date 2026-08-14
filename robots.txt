@@ -1,0 +1,86 @@
+# =========================================================================
+#  robots.txt  —  Sunny Games, the OFFICIAL web edition of the card-battle game.
+#  Static, fully client-side browser game (Vite + TypeScript + three.js).
+#  No backend, no private routes — full crawl is welcome.
+#  Goal: maximum discoverability + citation by classic search AND AI agents.
+#  NOTE: the site origin (https://www.smashandclash.in) is baked in at build time from
+#  VITE_SITE_URL — see vite.config.ts. Edit this template, not dist/robots.txt.
+# =========================================================================
+
+# -------------------------------------------------------------------------
+#  Cloudflare Content Signals Policy (machine-readable usage preferences).
+#  Applies to ALL crawlers regardless of the Allow rules below.
+#    search   = yes  -> may build a search index & return links/excerpts
+#    ai-input = yes  -> may use content for live AI answers (RAG/grounding)
+#    ai-train = no   -> reserve rights: do not train/fine-tune models on it
+#  (We want to be FOUND and CITED; we reserve training rights. This does
+#   NOT reduce search or AI-citation visibility.)
+# -------------------------------------------------------------------------
+User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Allow: /
+
+# --- Classic search engines (core SEO — never block) ---------------------
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# --- AI search / citation crawlers (drive referral traffic — ALLOW) ------
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+# --- AI training crawlers (allowed to crawl; see Content-Signal above) ----
+#  These are allowed to fetch so we stay visible; the ai-train=no signal
+#  above expresses our preference that content not be used for training.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# --- Sitemap (absolute URL on the canonical host) ------------------------
+Sitemap: https://www.smashandclash.in/sitemap.xml
