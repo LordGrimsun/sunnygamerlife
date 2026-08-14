@@ -1,0 +1,48 @@
+<svg width="192" height="192" viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg-grad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a1b3a"/>
+      <stop offset="100%" stop-color="#0b0c1e"/>
+    </radialGradient>
+    <radialGradient id="sun-glow" cx="50%" cy="45%" r="45%">
+      <stop offset="0%" stop-color="#ffb703" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#fb8500" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sun-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd166"/>
+      <stop offset="100%" stop-color="#f77f00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="192" height="192" rx="28.799999999999997" fill="url(#bg-grad)"/>
+
+  <!-- Glow -->
+  <circle cx="96" cy="84.48" r="72.96000000000001" fill="url(#sun-glow)"/>
+
+  <!-- Sun Rays -->
+  <!-- Top -->
+  <polygon points="96,19.200000000000003 102.72,42.24 89.28,42.24" fill="url(#sun-grad)" opacity="0.9"/>
+  <!-- Bottom -->
+  <polygon points="96,149.76 102.72,126.72 89.28,126.72" fill="url(#sun-grad)" opacity="0.9"/>
+  <!-- Left -->
+  <polygon points="23.04,84.48 46.08,78.72 46.08,90.24" fill="url(#sun-grad)" opacity="0.9"/>
+  <!-- Right -->
+  <polygon points="168.96,84.48 145.92000000000002,78.72 145.92000000000002,90.24" fill="url(#sun-grad)" opacity="0.9"/>
+  <!-- Top-Right -->
+  <polygon points="149.76,34.56 132.48,51.84 140.16,63.36" fill="url(#sun-grad)" opacity="0.9"/>
+  <!-- Top-Left -->
+  <polygon points="42.24,34.56 51.84,63.36 59.519999999999996,51.84" fill="url(#sun-grad)" opacity="0.9"/>
+  <!-- Bottom-Right -->
+  <polygon points="149.76,134.39999999999998 140.16,117.12 132.48,128.64000000000001" fill="url(#sun-grad)" opacity="0.9"/>
+  <!-- Bottom-Left -->
+  <polygon points="42.24,134.39999999999998 59.519999999999996,128.64000000000001 51.84,117.12" fill="url(#sun-grad)" opacity="0.9"/>
+
+  <!-- Sun Core -->
+  <circle cx="96" cy="84.48" r="36.480000000000004" fill="url(#sun-grad)"/>
+  <!-- Inner highlight -->
+  <circle cx="90.24" cy="78.72" r="13.440000000000001" fill="#fff9e6" opacity="0.5"/>
+
+  <!-- "SG" Text -->
+  <text x="96" y="176.64000000000001" font-family="system-ui, Arial, sans-serif" font-size="26.880000000000003" font-weight="900" fill="#0abeff" text-anchor="middle" letter-spacing="1.92">SUNNY GAMES</text>
+</svg>
