@@ -1,0 +1,52 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" rx="40" fill="#0b0c1e"/>
+  
+  <!-- Stylized glowing sun emblem -->
+  <defs>
+    <radialGradient id="sun-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffb703" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#fb8500" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#fb8500" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sun-rays" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffb703"/>
+      <stop offset="100%" stop-color="#fb8500"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Glow effect -->
+  <circle cx="250" cy="200" r="120" fill="url(#sun-glow)" opacity="0.5"/>
+
+  <!-- Sun Center -->
+  <circle cx="250" cy="200" r="60" fill="url(#sun-rays)"/>
+
+  <!-- Sun Rays (Decorative polygons) -->
+  <!-- Ray Up -->
+  <path d="M250 110 L262 135 L238 135 Z" fill="url(#sun-rays)"/>
+  <!-- Ray Down -->
+  <path d="M250 290 L262 265 L238 265 Z" fill="url(#sun-rays)"/>
+  <!-- Ray Left -->
+  <path d="M160 200 L185 212 L185 188 Z" fill="url(#sun-rays)"/>
+  <!-- Ray Right -->
+  <path d="M340 200 L315 212 L315 188 Z" fill="url(#sun-rays)"/>
+
+  <!-- Diagonal Rays -->
+  <!-- Top Right -->
+  <path d="M313.6 136.4 L306.6 157.6 L289.4 148.4 Z" fill="url(#sun-rays)"/>
+  <!-- Top Left -->
+  <path d="M186.4 136.4 L210.6 148.4 L193.4 157.6 Z" fill="url(#sun-rays)"/>
+  <!-- Bottom Right -->
+  <path d="M313.6 263.6 L289.4 251.6 L306.6 242.4 Z" fill="url(#sun-rays)"/>
+  <!-- Bottom Left -->
+  <path d="M186.4 263.6 L193.4 242.4 L210.6 251.6 Z" fill="url(#sun-rays)"/>
+
+  <!-- Elegant Typography for "Sunny Games" -->
+  <text x="250" y="380" font-family="'Luckiest Guy', system-ui, sans-serif" font-size="44" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="2">
+    SUNNY GAMES
+  </text>
+  
+  <text x="250" y="420" font-family="system-ui, sans-serif" font-size="18" font-weight="500" fill="#0abeff" text-anchor="middle" letter-spacing="4" opacity="0.8">
+    PLAY &amp; COMPETE
+  </text>
+</svg>
