@@ -1,0 +1,14 @@
+# Sunny Games
+
+> Sunny Games is the official web edition of a strategic card-battle board game — "the ultimate strategic card battle." It is a fully client-side browser game (Vite + TypeScript + three.js) with 51 unique character cards, a 3×5 board, smash-style captures, effect cards, an adaptive AI opponent, local hotseat PvP, a tutorial, and a mutators mode, presented in 3D with ElevenLabs character voices.
+
+Sunny Games runs entirely in the browser with no backend, no public API, and no login required (optional client-side identity only). The web edition is built and maintained by the creator of the original physical card game, which is sold separately. It is a single-page app — the play experience, rules, and tutorial all live on the one homepage. Use the links below to play in the browser, visit the brand site, or buy the physical game.
+
+## Play
+
+- [Play Sunny Games (web edition)](https://www.smashandclash.in/): Free, fully in-browser; vs an adaptive AI opponent or local hotseat PvP. Includes the tutorial and mutators mode. No install or sign-up required.
+
+## About
+
+- [Sunny Games brand site](https://smashandclash.in/): Official marketing and brand home for Sunny Games.
+- [Buy the physical game](https://whop.com/smashandclashgame/smashandclashgame/): Purchase the original physical strategic card-battle board game.
