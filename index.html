@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-content" />
+    <title>Sunny Games — Ultimate Strategic Card Battle</title>
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <!-- PWA (DESIGN-WAVE46 §15) -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#016DCB" />
+    <link rel="apple-touch-icon" href="/logo.png" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Sunny Games" />
+    <link rel="preload" href="/LuckiestGuy-Regular.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="preload" href="/Card_Back_v2.png" as="image" />
+    <link rel="preload" href="/audio/manifest.json" as="fetch" crossorigin />
+
+    <!-- SEO / agent discoverability — see /robots.txt, /sitemap.xml, /llms.txt -->
+    <meta
+      name="description"
+      content="Play Sunny Games free in your browser: the official strategic card-battle game with 51 cards, a 3×5 board, smash-style captures, an adaptive AI, and local PvP."
+    />
+    <link rel="canonical" href="https://www.smashandclash.in/" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Sunny Games" />
+    <meta property="og:title" content="Sunny Games — Ultimate Strategic Card Battle" />
+    <meta
+      property="og:description"
+      content="Play the official free browser edition of Sunny Games: 51 unique cards, a 3×5 board, smash-style captures, an adaptive AI opponent, and local PvP."
+    />
+    <meta property="og:url" content="https://www.smashandclash.in/" />
+    <meta property="og:image" content="https://www.smashandclash.in/cover.jpg" />
+    <meta property="og:image:width" content="1344" />
+    <meta property="og:image:height" content="756" />
+    <meta property="og:image:alt" content="Sunny Games strategic card battle — character cards on a 3×5 board" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sunny Games — Ultimate Strategic Card Battle" />
+    <meta
+      name="twitter:description"
+      content="Play the official free browser edition of Sunny Games: 51 unique cards, a 3×5 board, smash-style captures, an adaptive AI opponent, and local PvP."
+    />
+    <meta name="twitter:image" content="https://www.smashandclash.in/cover.jpg" />
+    <meta name="twitter:image:alt" content="Sunny Games strategic card battle — character cards on a 3×5 board" />
+
+    <!-- AI / agent discoverability: clean markdown index (real static file) -->
+    <link rel="alternate" type="text/markdown" title="LLM-friendly version" href="/llms.txt" />
+
+    <!-- Structured data: VideoGame (+WebApplication) + WebSite + Organization -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": ["VideoGame", "WebApplication"],
+            "@id": "https://www.smashandclash.in/#game",
+            "name": "Sunny Games",
+            "alternateName": "Sunny Games",
+            "url": "https://www.smashandclash.in/",
+            "description": "The official free browser edition of Sunny Games, the ultimate strategic card-battle game: 51 unique character cards, a 3×5 board, smash-style captures, effect cards, an adaptive AI opponent, local hotseat PvP, a tutorial, and a mutators mode, with 3D presentation and ElevenLabs character voices.",
+            "image": "https://www.smashandclash.in/cover.jpg",
+            "inLanguage": "en",
+            "genre": ["Strategy", "Card battle", "Board game"],
+            "gamePlatform": "Web browser",
+            "playMode": ["SinglePlayer", "CoOp"],
+            "applicationCategory": "GameApplication",
+            "operatingSystem": "Any",
+            "browserRequirements": "Requires a modern browser with WebGL.",
+            "datePublished": "2026-06-12",
+            "keywords": "strategic card battle, card game, board game, browser game, free online game, PvP, smash and clash",
+            "screenshot": "https://www.smashandclash.in/cover.jpg",
+            "numberOfPlayers": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 2 },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock",
+              "category": "free"
+            },
+            "author": { "@id": "https://www.smashandclash.in/#org" },
+            "publisher": { "@id": "https://www.smashandclash.in/#org" },
+            "isPartOf": { "@id": "https://www.smashandclash.in/#website" }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.smashandclash.in/#website",
+            "url": "https://www.smashandclash.in/",
+            "name": "Sunny Games",
+            "description": "Play Sunny Games, the ultimate strategic card battle, free in your browser.",
+            "inLanguage": "en",
+            "publisher": { "@id": "https://www.smashandclash.in/#org" }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://www.smashandclash.in/#org",
+            "name": "Sunny Games",
+            "url": "https://www.smashandclash.in/",
+            "logo": "https://www.smashandclash.in/icon-512.png",
+            "founder": { "@type": "Person", "name": "Ayush Kesharwani" },
+            "sameAs": [
+              "https://smashandclash.in",
+              "https://whop.com/smashandclashgame/smashandclashgame/"
+            ]
+          }
+        ]
+      }
+    </script>
+
+    <!-- Boot splash: painted by the HTML shell itself, before any JS bundle
+         parses. Auto-removed (script at end of <body>) the moment the menu or
+         the 3D scene mounts. Fully self-contained — no app module touches it. -->
+    <style>
+      #boot-splash {
+        position: fixed; inset: 0; z-index: 9999;
+        display: flex; flex-direction: column; gap: 20px;
+        align-items: center; justify-content: center;
+        background: #0b0c1e; /* == the app base bg, so there is no colour flash */
+        opacity: 1; transition: opacity 0.4s ease;
+      }
+      #boot-splash.is-hiding { opacity: 0; pointer-events: none; }
+      #boot-splash .bs-logo {
+        width: min(58vw, 300px); height: auto;
+        filter: drop-shadow(0 12px 26px rgba(0, 30, 70, 0.55));
+        animation: bs-pop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+      }
+      #boot-splash .bs-ring {
+        width: 52px; height: 52px; border-radius: 50%;
+        border: 4px solid rgba(255, 255, 255, 0.12);
+        border-top-color: #0abeff; /* brand accent */
+        animation: bs-spin 0.9s linear infinite;
+      }
+      @keyframes bs-spin { to { transform: rotate(360deg); } }
+      @keyframes bs-pop { from { opacity: 0; transform: scale(0.86); } to { opacity: 1; transform: scale(1); } }
+      @media (prefers-reduced-motion: reduce) {
+        #boot-splash .bs-logo { animation: none; }
+        #boot-splash .bs-ring { animation: none; border-color: rgba(255, 255, 255, 0.12); border-top-color: #0abeff; }
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-COP6vcKC.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/three-BffimtGP.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-DnOEKbke.css">
+  </head>
+  <body>
+    <div id="boot-splash" role="status" aria-label="Loading Sunny Games">
+      <img
+        class="bs-logo"
+        src="/logo.svg"
+        alt=""
+        decoding="async"
+        onerror="this.onerror=null;this.src='/logo.png';"
+      />
+      <div class="bs-ring"></div>
+    </div>
+    <div id="app">
+      <div id="scene-root"></div>
+      <div id="ui-root"></div>
+    </div>
+    <script>
+      /* Remove the boot splash once the app's first UI — the menu (#ui-root
+         gains children) OR the 3D scene (#scene-root gains a <canvas>) — has
+         mounted. Self-contained; never blocks the module script above, and a
+         safety timeout guarantees the splash can never trap the user. */
+      (function () {
+        var splash = document.getElementById('boot-splash');
+        if (!splash) return;
+        var done = false;
+        function hide() {
+          if (done) return;
+          done = true;
+          splash.classList.add('is-hiding');
+          setTimeout(function () {
+            if (splash.parentNode) splash.parentNode.removeChild(splash);
+          }, 500);
+        }
+        function ready() {
+          var ui = document.getElementById('ui-root');
+          var sr = document.getElementById('scene-root');
+          return (ui && ui.childElementCount > 0) || (sr && sr.querySelector('canvas'));
+        }
+        // Prefer painting one frame first, but fall back to a short timer so
+        // removal is never stuck if rAF is throttled (background/headless tab).
+        function settle() {
+          var fired = false;
+          function go() { if (fired) return; fired = true; hide(); }
+          requestAnimationFrame(function () { requestAnimationFrame(go); });
+          setTimeout(go, 120);
+        }
+        if (ready()) { settle(); return; }
+        var root = document.getElementById('app') || document.body;
+        if ('MutationObserver' in window) {
+          var mo = new MutationObserver(function () {
+            if (ready()) { mo.disconnect(); settle(); }
+          });
+          mo.observe(root, { childList: true, subtree: true });
+        }
+        setTimeout(hide, 8000); /* safety net: never trap the user */
+      })();
+    </script>
+    <script>
+      /* WebMCP (emerging in-page agent protocol): when the browser exposes
+         navigator.modelContext, register a tool so an agent can start a match
+         right here. Guarded → a pure no-op in today's browsers; depends on the
+         window.SunnyGames shim set in src/main.ts. Self-contained, best-effort,
+         and can never break the page. */
+      (function () {
+        if (!('modelContext' in navigator)) return;
+        try {
+          navigator.modelContext.provideContext({
+            tools: [
+              {
+                name: 'start_solo_match',
+                description:
+                  'Start a new single-player Sunny Games match in the current page against an opponent. Free, no login required.',
+                inputSchema: {
+                  type: 'object',
+                  properties: {
+                    ruleset: {
+                      type: 'string',
+                      enum: ['classic', 'mutators'],
+                      description: 'Match ruleset. Default classic.',
+                    },
+                  },
+                },
+                async execute(args) {
+                  var sc = window.SunnyGames;
+                  var ruleset = args && args.ruleset === 'mutators' ? 'mutators' : 'classic';
+                  if (sc && typeof sc.startSolo === 'function') {
+                    await sc.startSolo({ ruleset: ruleset });
+                    return { content: [{ type: 'text', text: 'Started a ' + ruleset + ' solo match.' }] };
+                  }
+                  return { content: [{ type: 'text', text: 'Game is still loading; try again shortly.' }] };
+                },
+              },
+            ],
+          });
+        } catch (e) {
+          /* WebMCP is best-effort; never break the page */
+        }
+      })();
+    </script>
+  </body>
+</html>
